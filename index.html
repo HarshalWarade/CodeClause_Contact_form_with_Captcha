@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Contact form with captcha</h1>
+
+    <div class="form">
+        <div>
+            <input type="text" placeholder="Enter your email address">
+            <input type="email" placeholder="Enter email address to send">
+        </div>
+        <textarea placeholder="Enter your message here"></textarea>
+        <div>
+            <div id="captcha"></div>
+            <input type="text" id="captchCatcher" placeholder="Enter the captcha code here">
+        </div>
+        <a href="#" onclick="passMsg()">Send Message</a>
+    </div>
+    <script src="gen.js"></script>
+</body>
+
+</html>
